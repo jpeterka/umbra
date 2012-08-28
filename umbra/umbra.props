@@ -1,0 +1,7 @@
+# Configuration setting
+show-line-numbers=true
+show-perspective-bar-text=false
+
+# Mapping $variable=location|type
+$show-line-numbers=.plugins/org.eclipse.core.runtime/.settings|org.eclipse.ui.editors.prefs|lineNumberRuler|boolean
+$show-perspective-bar-text=.plugins/org.eclipse.core.runtime/.settings|org.eclipse.ui.prefs|SHOW_TEXT_ON_PERSPECTIVE_BAR|boolean
