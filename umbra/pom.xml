@@ -6,5 +6,19 @@
   <name>Umbra for Eclipse</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <plugins>
+    	<plugin>
+    		<!--  build executable JAR -->
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-jar-plugin</artifactId>
+    		<configuration>
+    		<archive>
+    			<manifest>
+    				<mainClass>org.umbra.Umbra</mainClass>
+    			</manifest>
+    		</archive>
+    		</configuration>    		
+    	</plugin>
+    </plugins>
   </build>
 </project>
